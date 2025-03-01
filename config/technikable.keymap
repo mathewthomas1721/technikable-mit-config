@@ -65,10 +65,10 @@
         sym_layer {
             label = "Sym";
             bindings = <
-&kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(N5)  &kp LS(NUMBER_6)    &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)            &kp LS(MINUS)          &kp LS(EQUAL)
-&trans            &trans            &trans            &trans            &trans      &trans              &trans      &trans      &trans      &kp LS(LEFT_BRACKET)  &kp LS(RIGHT_BRACKET)  &kp LS(NON_US_BACKSLASH)
-&trans            &trans            &trans            &trans            &trans      &trans              &trans      &trans      &trans      &trans                &trans                 &trans
-                                    &trans            &trans            &trans      &trans              &trans      &trans      &trans
+&kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp CARET    &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE   &kp PLUS
+&trans           &trans       &trans    &trans      &trans       &trans       &trans         &trans        &trans                &kp LEFT_BRACE         &kp RIGHT_BRACE  &kp PIPE
+&trans           &trans       &trans    &trans      &trans       &trans       &trans         &trans        &trans                &trans                 &trans           &trans
+                              &trans    &trans      &trans       &trans       &trans         &trans        &trans
             >;
         };
     };
